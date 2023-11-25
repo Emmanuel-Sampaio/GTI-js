@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: rgb(255, 67, 67);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Adiciona posição relativa ao header */
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+}
+.pokemon1{
+    text-align: center;
+}
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Utilizamos space-between para garantir 6 Pokémon por linha */
+  }
+  
+  .pokemon {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: calc(16.66% - 10px); /* 16.66% garante 6 por linha com o espaço entre eles */
+    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+  }
+  
+  .pokemon-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  
