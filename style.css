@@ -71,17 +71,17 @@ header a{
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
-    margin: 5px;
     background-color: #fff;
-    border-radius: 8px;
-    width: calc(16.66% - 10px); 
+    border-radius: 10px;
+    margin: 5px;
+    width: calc(19% - 10px); 
     box-sizing: border-box; 
     
   }
   
   .pokemon-image {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
   .pokemon a {
     text-decoration: none;
