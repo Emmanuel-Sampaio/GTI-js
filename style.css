@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* Adiciona posição relativa ao header */
+    position: relative; 
 }
 
 header p {
@@ -42,8 +42,8 @@ header a{
 .pokemon-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Utilizamos space-between para garantir 6 Pokémon por linha */
-  }
+    justify-content: space-between; 
+}
   
   .pokemon {
     border: 1px solid #ccc;
@@ -52,13 +52,64 @@ header a{
     margin: 5px;
     background-color: #fff;
     border-radius: 8px;
-    width: calc(16.66% - 10px); /* 16.66% garante 6 por linha com o espaço entre eles */
-    box-sizing: border-box; /* Garante que a largura inclua a borda e o preenchimento */
+    width: calc(16.66% - 10px); 
+    box-sizing: border-box; 
   }
   
   .pokemon-image {
     width: 100px;
     height: 100px;
+  }
+  .pokemon a {
+    text-decoration: none;
+    color: black;
+  }
+  .water {
+    background-color: #3498db; 
+  }
+  
+  .fire {
+    background-color: #e74c3c;
+  }
+  .electric {
+    background-color: #f1c40f; 
+  }
+  
+  .poison {
+    background-color: #95a5a6; 
+  }
+  .grass{
+    background-color: #2ecc71;
+  }
+  .rock {
+    background-color: #bdc3c7;
+  }
+  
+  .normal {
+    background-color: #ecf0f1;
+  }
+  
+  .dragon {
+    background-color: #3498db; 
+  }
+  .ground{
+    background-color:#8b572a
+  }
+  .fairy{
+    background-color:#ffe993;
+  }
+  .fighting{
+    background-color:rgb(125, 0, 0);
+  }
+  .psychic{
+    background-color: #9b59b6;
+  }
+  .bug {
+    background-color: #2ecc71; 
+  }
+  .ice {
+    background-color:#a9cce3 ;
+
   }
   
   
